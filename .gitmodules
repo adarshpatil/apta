@@ -2,3 +2,6 @@
 	path = gem5
 	url = https://github.com/adarshpatil/gem5
 	branch = disaggr-mem
+[submodule "serverless-benchmarks"]
+	path = serverless-benchmarks
+	url = git@github.com:adarshpatil/serverless-benchmarks-unified.git
