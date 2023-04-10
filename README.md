@@ -1,4 +1,4 @@
-![Apta thumb](http://timewarp.adarshpatil.in/images/projects/apta/apta-thumb.png) 
+![Apta thumb](http://timewarp.adarshpatil.in/images/projects/apta/apta-thumb-github.png) 
 # Āpta: Fault-tolerant object-granular CXL disaggregated memory for accelerating FaaS
 
 Āpta is a fault-tolerant CXL-based, shared disaggregated memory system that is specialized as an object-store to improve performance of function-as-a-service (FaaS) applications. [[DSN '23 paper]](). 
