@@ -23,17 +23,17 @@ This repository contains all artifacts used to experimentally evaluate Āpta
 
 # Repository contents
 1.  gem5 based implementation of CXL disaggregated memory (forked from [VANDAL/SynchroTrace-gem5](https://github.com/VANDAL/SynchroTrace-gem5))\
-	This repo contains implementation of
+	This repo contains architecture implementations of
 	 - cxl-uncached: disable caching of all disaggregated memory data (no coherence required)
 	 - cxl-baseline: 2 state (Valid/Invalida) coherence protocol 
-	 - lazy-invalidation (Āpta protocol): cxl-baseline protocol with sharer invalidation out-of-the-critical path 
-
-2.  serverless benchmarks to run within the simulator
-	This repo contains refactored shared memory implementation of serverless benchmarks workflows with
-	  - 
-
+	 - lazy-invalidation (Āpta protocol): cxl-baseline protocol with sharer invalidation out-of-the-critical path
+2.  serverless benchmarks to run within the simulator\
+	This repo contains refactored, shared memory implementations of serverless workflow benchmarks with
+	 - python functions with object sharing using shared memory 
+	 - python converted to C code using cython
+	 - generated C code annotated with get / compute / put phases of execution
+	 - traces generated with compiled C code using [VANDAL/Prism](https://github.com/adarshpatil/prism/tree/3a12d62cf622ac3918ff62f4265ce3457b48f7a4)
 3.  Coherence protocol [specification]() in table format.
-
 4.  [Murphi model](https://github.com/adarshpatil/apta/tree/main/murphi-model) for the Āpta protocol (generated using [ProtoGen](https://github.com/icsa-caps/ProtoGen))
 
 # Additional Material
