@@ -33,7 +33,7 @@ This repository contains all artifacts used to experimentally evaluate Āpta
 	 - python converted to C code using cython
 	 - generated C code annotated with get / compute / put phases of execution
 	 - traces generated with compiled C code using [VANDAL/Prism](https://github.com/adarshpatil/prism/tree/3a12d62cf622ac3918ff62f4265ce3457b48f7a4)
-3.  Coherence protocol [specification]() in table format.
+3.  Coherence protocol [specification](https://github.com/adarshpatil/apta/blob/main/Apta-DSN23-appendix.pdf) in table format.
 4.  [Murphi model](https://github.com/adarshpatil/apta/tree/main/murphi-model) for the Āpta protocol (generated using [ProtoGen](https://github.com/icsa-caps/ProtoGen))
 
 # Additional Material
