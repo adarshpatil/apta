@@ -59,5 +59,5 @@ If you are using Āpta for your work, please cite:
 }
 ```
 
---------------------------------------------------------------
-The name of the project - Āpta - is derived from the Sankrit word (आप्त) which means "trustworthy" or "reliable", referring here to the enhanced reliability provided by our system.
+# Trivia 
+The name of the project - "Āpta" - is derived from the Sankrit word (आप्त) which means "trustworthy" or "reliable", referring here to the enhanced reliability provided by our system.
