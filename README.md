@@ -3,7 +3,7 @@
 # What is Āpta?
 Āpta is a fault-tolerant CXL-based, shared disaggregated memory system that is specialized as an object-store to improve performance of function-as-a-service (FaaS) applications. 
 
-The full system design and specifications are available in our [DSN 2023 paper](). 
+The full system design and specifications are available in our [DSN 2023 paper](https://users.cs.utah.edu/~vijay/papers/dsn23.pdf). 
 
 This repository contains all artifacts used to experimentally evaluate Āpta 
 
